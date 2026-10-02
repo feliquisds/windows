@@ -8,29 +8,29 @@ $name = ""
 
 switch ($var) {
 	3 {
-		$long = ("0x001B8{0:X3}" -f (18 * 8))
-		$short = ("0x00438{0:X3}" -f (22 * 8))
+		$long = ("0x001B8{0:X3}" -f (20 * 8))
+		$short = ("0x00438{0:X3}" -f (20 * 8))
 		$epp = "84"
 		$ssmax = "0x{0:X}01" -f 59
 		$name = "High performance"
 	}
 	2 {
-		$long = ("0x001B8{0:X3}" -f (15 * 8))
-		$short = ("0x00438{0:X3}" -f (18 * 8))
+		$long = ("0x001B8{0:X3}" -f (16 * 8))
+		$short = ("0x00438{0:X3}" -f (16 * 8))
 		$epp = "84"
 		$ssmax = "0x{0:X}01" -f 29
 		$name = "Optimized"
 	}
 	1 {
 		$long = ("0x001B8{0:X3}" -f (12 * 8))
-		$short = ("0x00438{0:X3}" -f (14 * 8))
+		$short = ("0x00438{0:X3}" -f (12 * 8))
 		$epp = "153"
 		$ssmax = "0x{0:X}01" -f 59
 		$name = "Quiet"
 	}
 	0 {
 		$long = ("0x001B8{0:X3}" -f (8 * 8))
-		$short = ("0x00438{0:X3}" -f (10 * 8))
+		$short = ("0x00438{0:X3}" -f (8 * 8))
 		$epp = "153"
 		$ssmax = "0x{0:X}01" -f 29
 		$name = "Silent"
